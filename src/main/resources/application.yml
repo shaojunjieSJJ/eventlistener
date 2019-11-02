@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: event
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/school?characterEncoding=utf-8
+    username: root
+    password: 123456
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
